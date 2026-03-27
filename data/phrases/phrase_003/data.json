@@ -1,0 +1,29 @@
+{
+  "phrase_en": "I'm the king of the world!",
+  "phrase_ja": "俺は世界の王だ！",
+  "source_title": "Titanic",
+  "source_title_ja": "タイタニック",
+  "source_character": "Jack Dawson",
+  "source_year": 1997,
+  "genre": "romance",
+  "explanation_summary": "ジャックが船首に立ち、両手を広げて喜びと自由を叫ぶ映画史に残る名シーンのセリフです。最高の喜びや達成感を表現するときに使われる表現として広く知られています。",
+  "explanation_vocabulary": [
+    {
+      "word": "king",
+      "meaning": "王、最高の存在",
+      "note": "比喩的に「最強・最高」という意味で使われる"
+    },
+    {
+      "word": "the world",
+      "meaning": "世界",
+      "note": "「of the world」で「世界一の〜」と誇張表現になる"
+    }
+  ],
+  "explanation_usage": "試験に合格したときや、大きな目標を達成したときなど、最高の気分のときに冗談っぽく使えます。友人との会話で「I aced the exam! I'm the king of the world!」のように使うと楽しい表現になります。",
+  "explanation_grammar": "「I'm + 名詞」という非常にシンプルなSVC構文です。現在形を使うことで「今この瞬間の感情」を強く表現しています。",
+  "difficulty": "beginner",
+  "id": "phrase_003",
+  "image_url": "images/phrases/phrase_003.webp",
+  "audio_url": "audio/phrases/phrase_003.mp3",
+  "display_order": 3
+}

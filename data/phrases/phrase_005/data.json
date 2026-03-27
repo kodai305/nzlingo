@@ -1,0 +1,29 @@
+{
+  "phrase_en": "We were on a break!",
+  "phrase_ja": "僕たちは休憩中だったんだ！",
+  "source_title": "Friends",
+  "source_title_ja": "フレンズ",
+  "source_character": "Ross Geller",
+  "source_year": 1997,
+  "genre": "comedy",
+  "explanation_summary": "ロスとレイチェルの関係をめぐるドラマで、ロスが何度も叫ぶ伝説的なセリフです。「We were on a break」は「僕たちは（付き合うのを）休憩していた」という言い訳として使われ、フレンズファンには超有名なフレーズです。",
+  "explanation_vocabulary": [
+    {
+      "word": "on a break",
+      "meaning": "休憩中、一時中断中",
+      "note": "「take a break」で「休憩を取る」、「be on a break」で「休憩中である」"
+    },
+    {
+      "word": "were",
+      "meaning": "〜だった（be動詞の過去形）",
+      "note": "we / they / you の過去形は was ではなく were を使う"
+    }
+  ],
+  "explanation_usage": "「on a break」は仕事や学校の休憩時間にもよく使います。「Sorry, I can't talk right now. I'm on a break in 10 minutes.」のように日常的に使える便利な表現です。",
+  "explanation_grammar": "「We were on a break」は過去進行中の状態を表す「be動詞の過去形 + 前置詞句」の構文です。「on + 名詞」で状態を表す表現（on a diet, on vacation など）は英語で非常によく使われます。",
+  "difficulty": "beginner",
+  "id": "phrase_005",
+  "image_url": "images/phrases/phrase_005.webp",
+  "audio_url": "audio/phrases/phrase_005.mp3",
+  "display_order": 5
+}

@@ -1,0 +1,29 @@
+{
+  "phrase_en": "You have bewitched me, body and soul.",
+  "phrase_ja": "あなたは私を、体も心も魔法にかけてしまった。",
+  "source_title": "Pride & Prejudice",
+  "source_title_ja": "プライドと偏見",
+  "source_character": "Mr. Darcy",
+  "source_year": 2005,
+  "genre": "romance",
+  "explanation_summary": "ダーシー氏がエリザベスへの止められない愛を打ち明ける、映画屈指のロマンチックなシーンのセリフです。「bewitch」は本来「魔法をかける」という意味ですが、ここでは「心を完全に奪われた」という比喩的な使い方をしています。",
+  "explanation_vocabulary": [
+    {
+      "word": "bewitch",
+      "meaning": "魔法をかける、心を奪う",
+      "note": "比喩的に「すっかり魅了された」という意味で使われる"
+    },
+    {
+      "word": "body and soul",
+      "meaning": "体も心も、全身全霊で",
+      "note": "対になる名詞を並べた慣用表現。「heart and soul」も同様の意味"
+    }
+  ],
+  "explanation_usage": "少しロマンチックな文学的表現として、映画や本の話題で使えます。日常ではやや大げさですが、「I'm completely bewitched by this city.（この街にすっかり魅了された）」のように比喩的に使うこともできます。",
+  "explanation_grammar": "「have + 過去分詞」は現在完了形で、「（今も続いている）〜された状態」を表します。ここでは「魔法にかけられた状態が今も続いている」というニュアンスが込められています。",
+  "difficulty": "intermediate",
+  "id": "phrase_006",
+  "image_url": "images/phrases/phrase_006.webp",
+  "audio_url": "audio/phrases/phrase_006.mp3",
+  "display_order": 6
+}

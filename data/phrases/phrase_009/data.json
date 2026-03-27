@@ -1,0 +1,29 @@
+{
+  "phrase_en": "I just want to say... I'm sorry for everything.",
+  "phrase_ja": "ただ言いたかったの…すべてのことについてごめんなさい。",
+  "source_title": "Emily in Paris",
+  "source_title_ja": "エミリー パリへ行く",
+  "source_character": "Emily Cooper",
+  "source_year": 2020,
+  "genre": "drama",
+  "explanation_summary": "エミリーが誤解や失敗を素直に謝る場面で使われる、日常でも非常に使いやすい表現です。「I just want to say」は「ただ〜と言いたかっただけ」と前置きすることで、相手に柔らかく気持ちを伝えるクッション言葉になっています。",
+  "explanation_vocabulary": [
+    {
+      "word": "I just want to say",
+      "meaning": "ただ〜と言いたくて",
+      "note": "話し始めの前置き表現として非常によく使われる"
+    },
+    {
+      "word": "I'm sorry for〜",
+      "meaning": "〜についてごめんなさい",
+      "note": "「sorry for + 名詞/動名詞」で具体的な謝罪の内容を伝えられる"
+    }
+  ],
+  "explanation_usage": "謝罪の場面だけでなく、「I just want to say thank you for everything.(すべてのことに感謝したかっただけ)」のように感謝を伝えるときにも使えます。メールや会話の冒頭に置くと丁寧な印象になります。",
+  "explanation_grammar": "「I just want to say〜」の「just」は「ただ〜だけ」という限定の意味を持ち、表現を柔らかくする役割があります。「want to + 動詞の原形」は「〜したい」という基本構文で、日常会話で非常に頻繁に使われます。",
+  "difficulty": "beginner",
+  "id": "phrase_009",
+  "image_url": "images/phrases/phrase_009.webp",
+  "audio_url": "audio/phrases/phrase_009.mp3",
+  "display_order": 9
+}

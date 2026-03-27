@@ -1,0 +1,29 @@
+{
+  "phrase_en": "That's so fetch.",
+  "phrase_ja": "それって超イケてる。",
+  "source_title": "Mean Girls",
+  "source_title_ja": "ミーン・ガールズ",
+  "source_character": "Gretchen Wieners",
+  "source_year": 2004,
+  "genre": "comedy",
+  "explanation_summary": "グレッチェンが「fetch（かっこいい）」という言葉を流行らせようと何度も使うギャグシーンからのセリフです。映画の中では結局流行りませんが、逆にこのセリフ自体が世界中で有名になりました。",
+  "explanation_vocabulary": [
+    {
+      "word": "fetch",
+      "meaning": "（スラング）おしゃれな、イケてる",
+      "note": "現実の会話ではあまり使われないが、映画の引用として知られている"
+    },
+    {
+      "word": "so",
+      "meaning": "とても、すごく",
+      "note": "形容詞の前に置いて強調する副詞として口語でよく使われる"
+    }
+  ],
+  "explanation_usage": "「so + 形容詞」の形は日常会話でとても便利です。「That's so cute!」「That's so kind of you!」のように、何かに対して強い感想を伝えるときに使えます。",
+  "explanation_grammar": "「That's so + 形容詞」は「それはとても〜だ」という強調表現です。That's = That is の短縮形で、会話では短縮形を使うのが自然です。",
+  "difficulty": "beginner",
+  "id": "phrase_004",
+  "image_url": "images/phrases/phrase_004.webp",
+  "audio_url": "audio/phrases/phrase_004.mp3",
+  "display_order": 4
+}

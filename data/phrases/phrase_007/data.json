@@ -1,0 +1,29 @@
+{
+  "phrase_en": "The name's Miranda Priestly.",
+  "phrase_ja": "ミランダ・プリーストリーよ。",
+  "source_title": "The Devil Wears Prada",
+  "source_title_ja": "プラダを着た悪魔",
+  "source_character": "Miranda Priestly",
+  "source_year": 2006,
+  "genre": "drama",
+  "explanation_summary": "カリスマ編集長ミランダの登場シーンに象徴される自己紹介表現です。「The name's〜」は「My name is〜」よりも自信に満ちた、少しクールな言い回しで、映画やドラマでよく耳にする表現です。",
+  "explanation_vocabulary": [
+    {
+      "word": "The name's",
+      "meaning": "名前は〜だ（My name is の略式表現）",
+      "note": "「The name is」の短縮形。自信を持って名乗るときのカジュアルな表現"
+    },
+    {
+      "word": "Priestly",
+      "meaning": "（固有名詞）プリーストリー",
+      "note": "姓を名乗るときは名前の後に姓を置くのが英語の基本順序"
+    }
+  ],
+  "explanation_usage": "自己紹介の場面で「My name is〜」の代わりに使えるバリエーションとして覚えておくと便利です。ビジネスの場よりもカジュアルな場面に適しており、「The name's Yuki. Nice to meet you!」のように使えます。",
+  "explanation_grammar": "「The name's」は「The name is」の短縮形です。通常「my name」と言うところを「the name」と定冠詞を使うことで、客観的・クールな響きになります。短縮形（'s）は is の省略です。",
+  "difficulty": "beginner",
+  "id": "phrase_007",
+  "image_url": "images/phrases/phrase_007.webp",
+  "audio_url": "audio/phrases/phrase_007.mp3",
+  "display_order": 7
+}

@@ -1,0 +1,29 @@
+{
+  "phrase_en": "Let it go.",
+  "phrase_ja": "もう手放して。／ありのままに。",
+  "source_title": "Frozen",
+  "source_title_ja": "アナと雪の女王",
+  "source_character": "Elsa",
+  "source_year": 2013,
+  "genre": "animation",
+  "explanation_summary": "エルサが自分の力を隠すことをやめ、ありのままの自分を受け入れる場面で歌われる有名なフレーズです。「let」は「〜させる」、「go」は「行く・離れる」で、合わせて「手放す・気にしない」という意味になります。",
+  "explanation_vocabulary": [
+    {
+      "word": "let",
+      "meaning": "〜させる、〜を許す",
+      "note": "let + 目的語 + 動詞の原形 で使う使役動詞"
+    },
+    {
+      "word": "go",
+      "meaning": "行く、離れる",
+      "note": "let go で「手放す」「解放する」という熟語になる"
+    }
+  ],
+  "explanation_usage": "悩みやストレスを抱えている友人に「もう気にしないで」と声をかけるとき、または自分自身に言い聞かせるときに使えます。「Just let it go.」のように just を加えると、より自然な口語表現になります。",
+  "explanation_grammar": "「let it go」は let + 目的語(it) + 動詞の原形(go) という使役構文です。「it」は悩みや問題など抽象的なものを指します。",
+  "difficulty": "beginner",
+  "id": "phrase_001",
+  "image_url": "images/phrases/phrase_001.webp",
+  "audio_url": "audio/phrases/phrase_001.mp3",
+  "display_order": 1
+}

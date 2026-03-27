@@ -1,0 +1,29 @@
+{
+  "phrase_en": "After all this time? Always.",
+  "phrase_ja": "こんなに時間が経ったのに？ずっとだ。",
+  "source_title": "Harry Potter and the Deathly Hallows Part 2",
+  "source_title_ja": "ハリー・ポッターと死の秘宝 PART2",
+  "source_character": "Severus Snape",
+  "source_year": 2011,
+  "genre": "fantasy",
+  "explanation_summary": "スネイプ先生がずっとリリーへの愛を持ち続けていたことを示す、シリーズ随一の名場面のセリフです。「After all this time」は「こんなに長い年月が過ぎたのに」という意味で、深い感情を込めた表現として世界中のファンに愛されています。",
+  "explanation_vocabulary": [
+    {
+      "word": "after all this time",
+      "meaning": "こんなに長い時間が経っても",
+      "note": "「after all」だけだと「結局」という意味になるので注意"
+    },
+    {
+      "word": "always",
+      "meaning": "いつも、ずっと",
+      "note": "ここでは「ずっと変わらず」という強い意志・感情を表す"
+    }
+  ],
+  "explanation_usage": "長い時間が経っても変わらない気持ちや状況を表現するときに使えます。例えば「Do you still love that restaurant? After all this time?」のように、驚きを込めて使うことができます。",
+  "explanation_grammar": "「After all this time?」は疑問文ですが、動詞が省略された不完全な文です。会話では文脈から意味が伝わる場合、このように省略した短い文が自然に使われます。",
+  "difficulty": "intermediate",
+  "id": "phrase_002",
+  "image_url": "images/phrases/phrase_002.webp",
+  "audio_url": "audio/phrases/phrase_002.mp3",
+  "display_order": 2
+}

@@ -1,0 +1,29 @@
+{
+  "phrase_en": "Here's looking at you, kid.",
+  "phrase_ja": "君のことを見ているよ、お嬢さん。",
+  "source_title": "Casablanca",
+  "source_title_ja": "カサブランカ",
+  "source_character": "Rick Blaine",
+  "source_year": 1942,
+  "genre": "romance",
+  "explanation_summary": "映画史上最も有名なロマンチックなセリフのひとつで、リックがイルザに向けて言う別れの言葉です。「Here's to〜」は乾杯のときの表現ですが、「Here's looking at you」は「君に乾杯、ずっと君を見ているよ」という深い愛情を表しています。",
+  "explanation_vocabulary": [
+    {
+      "word": "here's",
+      "meaning": "ここに〜がある、〜のために（乾杯の表現）",
+      "note": "「Here's to you!」で「あなたに乾杯！」という意味になる"
+    },
+    {
+      "word": "kid",
+      "meaning": "子ども、（愛称として）お嬢さん・坊や",
+      "note": "親しみや愛情を込めて大人に対して使うこともある"
+    }
+  ],
+  "explanation_usage": "乾杯のシーンで「Here's to your success!(あなたの成功に乾杯！)」のように「Here's to〜」という表現は現代でもよく使われます。友人の誕生日などで使えるおしゃれな表現です。",
+  "explanation_grammar": "「Here's looking at you」は「Here is + 動名詞」という構造です。「Here's to + 名詞/動名詞」の形で乾杯・祝福の表現になります。「looking at you」は「あなたを見ていること」という動名詞句です。",
+  "difficulty": "intermediate",
+  "id": "phrase_008",
+  "image_url": "images/phrases/phrase_008.webp",
+  "audio_url": "audio/phrases/phrase_008.mp3",
+  "display_order": 8
+}
