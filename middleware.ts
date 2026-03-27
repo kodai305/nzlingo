@@ -13,7 +13,7 @@ export async function middleware(request: NextRequest) {
           return request.cookies.getAll();
         },
         setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) =>
+          cookiesToSet.forEach(({ name, value }) =>
             request.cookies.set(name, value)
           );
           supabaseResponse = NextResponse.next({ request });
@@ -25,6 +25,7 @@ export async function middleware(request: NextRequest) {
     }
   );
 
+  // セッションを更新（これがないとセッションが切れる）
   const {
     data: { user },
   } = await supabase.auth.getUser();
@@ -45,19 +46,6 @@ export async function middleware(request: NextRequest) {
   if (!user) {
     const url = request.nextUrl.clone();
     url.pathname = "/login";
-    return NextResponse.redirect(url);
-  }
-
-  // ホワイトリストチェック
-  const { data: allowed } = await supabase
-    .from("allowed_users")
-    .select("id")
-    .eq("email", user.email)
-    .single();
-
-  if (!allowed) {
-    const url = request.nextUrl.clone();
-    url.pathname = "/unauthorized";
     return NextResponse.redirect(url);
   }
 
