@@ -1,13 +1,4 @@
-import withSerwistInit from "@serwist/next";
 import type { NextConfig } from "next";
-
-const revision = Date.now().toString();
-
-const withSerwist = withSerwistInit({
-  additionalPrecacheEntries: [{ url: "/~offline", revision }],
-  swSrc: "app/sw.ts",
-  swDest: "public/sw.js",
-});
 
 const nextConfig: NextConfig = {
   images: {
@@ -27,4 +18,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withSerwist(nextConfig);
+export default nextConfig;
