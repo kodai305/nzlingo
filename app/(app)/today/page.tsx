@@ -1,7 +1,11 @@
 import { createClient } from "@/lib/supabase/server";
 import { getTodayDisplayOrder } from "@/lib/utils";
 import { PhraseCard } from "@/components/phrase-card";
+import { StartTodayButton } from "@/components/start-today-button";
 import type { Phrase } from "@/lib/types/database";
+
+// キャッシュ無効化 — 毎回最新データを取得
+export const dynamic = "force-dynamic";
 
 export default async function TodayPage() {
   const supabase = await createClient();
@@ -48,15 +52,27 @@ export default async function TodayPage() {
     .eq("phrase_id", phrase.id)
     .single();
 
+  const isCompleted = !!progress;
+
+  // 今日の日付
+  const today = new Date().toLocaleDateString("ja-JP", {
+    month: "long",
+    day: "numeric",
+    weekday: "short",
+  });
+
   return (
     <main className="pt-2">
       <div className="mb-2 px-4">
+        <p className="text-xs text-text-secondary">{today}</p>
         <h1 className="text-lg font-bold text-text">今日のフレーズ</h1>
       </div>
-      <PhraseCard
-        phrase={phrase as Phrase}
-        isCompleted={!!progress}
-      />
+
+      {isCompleted ? (
+        <PhraseCard phrase={phrase as Phrase} isCompleted={true} />
+      ) : (
+        <StartTodayButton phrase={phrase as Phrase} />
+      )}
     </main>
   );
 }

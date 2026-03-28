@@ -1,7 +1,7 @@
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const USE_SUPABASE_STORAGE = process.env.NEXT_PUBLIC_USE_SUPABASE_STORAGE === "true";
 
-const LAUNCH_DATE = new Date("2026-04-01T00:00:00+09:00");
+const LAUNCH_DATE = new Date("2026-03-27T00:00:00+09:00");
 
 /**
  * アセットURLを生成
