@@ -54,8 +54,9 @@ export default async function TodayPage() {
 
   const isCompleted = !!progress;
 
-  // 今日の日付
-  const today = new Date().toLocaleDateString("ja-JP", {
+  // 今日の日付（JST）
+  const today = new Date(Date.now() + 9 * 60 * 60 * 1000).toLocaleDateString("ja-JP", {
+    timeZone: "Asia/Tokyo",
     month: "long",
     day: "numeric",
     weekday: "short",
