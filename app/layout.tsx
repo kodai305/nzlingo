@@ -32,12 +32,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja" className={notoSansJP.variable}>
+    <html lang="ja" className={notoSansJP.variable} style={{ backgroundColor: "#f9fafb" }}>
       <head>
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
       </head>
-      <body className="min-h-dvh">{children}</body>
+      <body className="min-h-dvh bg-background">{children}</body>
     </html>
   );
 }
