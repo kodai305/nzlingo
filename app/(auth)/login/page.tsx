@@ -3,11 +3,12 @@
 import { createClient } from "@/lib/supabase/client";
 import { useState } from "react";
 
+const isLocal = process.env.NEXT_PUBLIC_SUPABASE_URL?.includes("127.0.0.1");
+
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [emailSent, setEmailSent] = useState(false);
   const [error, setError] = useState("");
-  const isLocal = process.env.NEXT_PUBLIC_SUPABASE_URL?.includes("127.0.0.1");
 
   const handleGoogleLogin = async () => {
     const supabase = createClient();
@@ -77,53 +78,57 @@ export default function LoginPage() {
             Googleでログイン
           </button>
 
-          {/* Email Login (マジックリンク) */}
-          <div className="relative my-4">
-            <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t border-border" />
-            </div>
-            <div className="relative flex justify-center text-xs">
-              <span className="bg-surface px-2 text-text-secondary">または</span>
-            </div>
-          </div>
+          {/* ローカル開発時のみメールログインを表示 */}
+          {isLocal && (
+            <>
+              <div className="relative my-4">
+                <div className="absolute inset-0 flex items-center">
+                  <div className="w-full border-t border-border" />
+                </div>
+                <div className="relative flex justify-center text-xs">
+                  <span className="bg-surface px-2 text-text-secondary">
+                    開発用
+                  </span>
+                </div>
+              </div>
 
-          {emailSent ? (
-            <div className="rounded-xl bg-green-50 p-4 text-sm text-green-700">
-              <p className="font-medium">メールを送信しました</p>
-              <p className="mt-1">
-                {email} にログインリンクを送りました。メールを確認してください。
-              </p>
-              {isLocal && (
-                <a
-                  href="http://127.0.0.1:54324"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-2 inline-block text-primary underline"
-                >
-                  Mailpit で確認する
-                </a>
+              {emailSent ? (
+                <div className="rounded-xl bg-green-50 p-4 text-sm text-green-700">
+                  <p className="font-medium">メールを送信しました</p>
+                  <p className="mt-1">
+                    {email} にログインリンクを送りました。
+                  </p>
+                  <a
+                    href="http://127.0.0.1:54324"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-block text-primary underline"
+                  >
+                    Mailpit で確認する
+                  </a>
+                </div>
+              ) : (
+                <form onSubmit={handleEmailLogin} className="space-y-3">
+                  <input
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="メールアドレス"
+                    required
+                    className="w-full rounded-xl border border-border bg-surface px-4 py-3 text-sm text-text placeholder:text-gray-400 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+                  />
+                  <button
+                    type="submit"
+                    className="w-full rounded-xl bg-primary px-4 py-3 text-sm font-medium text-white transition-all hover:bg-primary-dark active:scale-[0.98]"
+                  >
+                    メールでログイン
+                  </button>
+                  {error && (
+                    <p className="text-xs text-red-500">{error}</p>
+                  )}
+                </form>
               )}
-            </div>
-          ) : (
-            <form onSubmit={handleEmailLogin} className="space-y-3">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="メールアドレス"
-                required
-                className="w-full rounded-xl border border-border bg-surface px-4 py-3 text-sm text-text placeholder:text-gray-400 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
-              />
-              <button
-                type="submit"
-                className="w-full rounded-xl bg-primary px-4 py-3 text-sm font-medium text-white transition-all hover:bg-primary-dark active:scale-[0.98]"
-              >
-                メールでログイン
-              </button>
-              {error && (
-                <p className="text-xs text-red-500">{error}</p>
-              )}
-            </form>
+            </>
           )}
         </div>
       </div>

@@ -16,17 +16,6 @@ export default async function AppLayout({
     redirect("/login");
   }
 
-  // ホワイトリストチェック
-  const { data: allowed } = await supabase
-    .from("allowed_users")
-    .select("id")
-    .eq("email", user.email)
-    .single();
-
-  if (!allowed) {
-    redirect("/unauthorized");
-  }
-
   return (
     <div className="pb-20">
       {children}
